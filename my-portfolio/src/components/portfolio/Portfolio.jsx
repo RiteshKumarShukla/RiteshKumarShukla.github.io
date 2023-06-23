@@ -3,6 +3,7 @@ import IMG1 from "../../assets/GeekBuying.png";
 import IMG2 from "../../assets/IMG2.png";
 import IMG4 from "../../assets/IMG4.png";
 import AISUMM from "../../assets/AISUMM.png"
+import cal from "../../assets/cal.png";
 
 import "./portfolio.css";
 
@@ -10,7 +11,7 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "GeekBuying Clone",
+      title: "GeekBuying - Clone",
       img: IMG1,
       description:
         "Geekbuying is an e-commerce website that sells electronics, gadgets, home appliances, and fashion items.",
@@ -20,6 +21,25 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      title: "CaloFit",
+      img: cal,
+      description:
+        "Track nutrition, fitness, and well-being with ease. Monitor meals, water intake, exercises, and health metrics. Visual progress updates.Enhance your health and wellness.",
+      technologies: "React | Redux | ChakraUI | Node.js | Express.js | MongoDB",
+      link: "https://calofit.netlify.app/",
+      github: "https://github.com/Tathagat017/CaloFit",
+    },
+    {
+      id: 5,
+      title: "AI Summarizer",
+      img: AISUMM,
+      description: "Our app creates brief summaries of long articles using advanced algorithms. It saves time and helps you understand complex topics more easily.",
+      technologies: "JavaScript | React | TailwindCSS | Redux-Tool Kit | RapidAPI",
+      link: "https://ai-article-summarizer-summz.netlify.app/",
+      github: "https://github.com/RiteshKumarShukla/AI-Summarizer",
+    },
+    {
+      id: 3,
       title: "Sports Wear Delight",
       img: IMG4,
       description:
@@ -29,23 +49,13 @@ const Portfolio = () => {
       github: "https://github.com/deepakthecoder1982/shut-point-1924",
     },
     {
-      id: 3,
+      id: 4,
       title: "CraftsVilla",
       img: IMG2,
-      description: "Craftsvilla.com is an online marketplace for handmade, ethnic, and      traditional Indian products, including clothing, jewelry, home decor, and accessories",    technologies: "JavaScript | React | Redux",
+      description: "Craftsvilla.com is an online marketplace for handmade, ethnic, and      traditional Indian products, including clothing, jewelry, home decor, and accessories", technologies: "JavaScript | React | Redux",
       link: "https://crafti-mart.netlify.app/",
       github: "https://github.com/RiteshKumarShukla/CraftiMart",
     },
-    {
-      id: 4,
-      title: "AI Summarizer",
-      img: AISUMM,
-      description: "Our app creates brief summaries of long articles using advanced algorithms. It saves time and helps you understand complex topics more easily.",    
-      technologies: "JavaScript | React | TailwindCSS | Redux-Tool Kit | RapidAPI",
-      link: "https://ai-article-summarizer-summz.netlify.app/",
-      github: "https://github.com/RiteshKumarShukla/AI-Summarizer",
-    },
-   
   ];
 
   return (

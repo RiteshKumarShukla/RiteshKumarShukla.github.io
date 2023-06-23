@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaHome, FaUser, FaEnvelope, FaFolder, FaCode } from "react-icons/fa";
 import "./Navbar.css";
 import CV from '../../assets/Ritesh-Shukla-Resume.pdf';
-import {ImProfile} from "react-icons/im"
+import { ImProfile } from "react-icons/im"
 
 
 const Navbar = () => {
@@ -40,12 +40,14 @@ const Navbar = () => {
             <span className="link-text">Contact</span>
           </a>
         </li>
+        
         <li className="nav-item">
-          <a href={CV} download className="nav-link resume" >
+          <a href={CV} download className="nav-link resume" onClick={() => window.open('https://drive.google.com/drive/folders/1b_zB5JtaYZeXxA2ORhr1XqevVXjZpEjl?usp=sharing', '_blank')}>
             <ImProfile className="nav-icon" />
             <span className="link-text" id="resume-button-1">Resume</span>
           </a>
         </li>
+
       </ul>
     </nav>
   );
@@ -53,3 +55,7 @@ const Navbar = () => {
 
 
 export default Navbar;
+
+
+//    Google Drive Link For Resume :
+//    https://drive.google.com/drive/folders/1b_zB5JtaYZeXxA2ORhr1XqevVXjZpEjl?usp=drive_link
