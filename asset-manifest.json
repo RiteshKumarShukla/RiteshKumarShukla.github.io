@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.176e7d3d.css",
-    "main.js": "/static/js/main.c5b20d53.js",
+    "main.js": "/static/js/main.0fa69525.js",
     "static/media/IMG4.png": "/static/media/IMG4.e7eba6a1eba90aa3854a.png",
     "static/media/AISUMM.png": "/static/media/AISUMM.47a11836feb96d76f1a9.png",
     "static/media/GeekBuying.png": "/static/media/GeekBuying.5290408c75478ea531ae.png",
@@ -11,10 +11,10 @@
     "static/media/Ritesh-Shukla-Resume.pdf": "/static/media/Ritesh-Shukla-Resume.d36b5825c2bd794cf6d4.pdf",
     "index.html": "/index.html",
     "main.176e7d3d.css.map": "/static/css/main.176e7d3d.css.map",
-    "main.c5b20d53.js.map": "/static/js/main.c5b20d53.js.map"
+    "main.0fa69525.js.map": "/static/js/main.0fa69525.js.map"
   },
   "entrypoints": [
     "static/css/main.176e7d3d.css",
-    "static/js/main.c5b20d53.js"
+    "static/js/main.0fa69525.js"
   ]
 }
