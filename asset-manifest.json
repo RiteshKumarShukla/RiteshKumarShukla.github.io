@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0682cee7.css",
-    "main.js": "/static/js/main.75b4b7aa.js",
+    "main.js": "/static/js/main.c5af718d.js",
     "static/media/logistics.png": "/static/media/logistics.e1bcbbe88b609c935538.png",
     "static/media/IMG4.png": "/static/media/IMG4.e7eba6a1eba90aa3854a.png",
     "static/media/AISUMM.png": "/static/media/AISUMM.47a11836feb96d76f1a9.png",
@@ -12,13 +12,14 @@
     "static/media/pi.png": "/static/media/pi.e2736b1ffd7d3672b591.png",
     "static/media/cal.png": "/static/media/cal.65aab94e8e985e37fc5b.png",
     "static/media/admin.png": "/static/media/admin.7b65f11068d59afcfcb8.png",
+    "static/media/debugify.png": "/static/media/debugify.d36292d5a7a8441cb0ff.png",
     "static/media/Ritesh-Shukla-Resume.pdf": "/static/media/Ritesh-Shukla-Resume.8086edd75aa9b6aae639.pdf",
     "index.html": "/index.html",
     "main.0682cee7.css.map": "/static/css/main.0682cee7.css.map",
-    "main.75b4b7aa.js.map": "/static/js/main.75b4b7aa.js.map"
+    "main.c5af718d.js.map": "/static/js/main.c5af718d.js.map"
   },
   "entrypoints": [
     "static/css/main.0682cee7.css",
-    "static/js/main.75b4b7aa.js"
+    "static/js/main.c5af718d.js"
   ]
 }
