@@ -4,6 +4,10 @@
     gap: 15%;
 }
 
+#user-detail-intro{
+    color:white;
+    text-align: justify;
+}
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;

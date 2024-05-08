@@ -8,7 +8,6 @@ import "react-vertical-timeline-component/style.min.css";
 import { MdSchool } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 
-
 export const Education = () => {
   return (
     <>
@@ -20,7 +19,7 @@ export const Education = () => {
         <br />
         <VerticalTimeline>
           <VerticalTimelineElement
-            date={"August-2022 - Present"}
+            date={"August 2022 - July 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -125,7 +124,3 @@ export const Education = () => {
     </>
   );
 };
-
-
-
-

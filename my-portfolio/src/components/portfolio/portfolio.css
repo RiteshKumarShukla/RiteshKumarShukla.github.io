@@ -1,7 +1,15 @@
+/* portfolio.css */
+
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+}
+
+.portfolio__container.show-projects {
+    transform: translateX(-100%);
 }
 
 .portfolio__item {
@@ -14,7 +22,6 @@
 }
 
 .portfolio__item:hover {
-    /* border-color: var(--color-primary-variant); */
     background: transparent;
 }
 
@@ -41,6 +48,22 @@
 
 .portfolio__item-content {
     height: 50%;
+}
+
+.project-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.nav-button {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1024px){

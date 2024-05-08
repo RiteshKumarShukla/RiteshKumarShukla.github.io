@@ -42,7 +42,7 @@ const Navbar = () => {
         </li>
         
         <li className="nav-item">
-          <a href={CV} download className="nav-link resume" onClick={() => window.open('https://drive.google.com/drive/folders/1b_zB5JtaYZeXxA2ORhr1XqevVXjZpEjl?usp=sharing', '_blank')}>
+          <a href={CV} download className="nav-link resume" onClick={() => window.open('https://drive.google.com/file/d/1id9QumlpIfjkcYw3dEi_EqDN6mmDH7Hc/view', '_blank')}>
             <ImProfile className="nav-icon" />
             <span className="link-text" id="resume-button-1">Resume</span>
           </a>
@@ -55,7 +55,3 @@ const Navbar = () => {
 
 
 export default Navbar;
-
-
-//    Google Drive Link For Resume :
-//    https://drive.google.com/drive/folders/1b_zB5JtaYZeXxA2ORhr1XqevVXjZpEjl?usp=drive_link

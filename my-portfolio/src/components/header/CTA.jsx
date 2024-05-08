@@ -4,7 +4,7 @@ import CV from "../../assets/Ritesh-Shukla-Resume.pdf";
 const CTA = () => {
   const handleNewTab = () => {
     window.open(
-      "https://drive.google.com/drive/folders/1b_zB5JtaYZeXxA2ORhr1XqevVXjZpEjl?usp=sharing"
+      "https://drive.google.com/file/d/1id9QumlpIfjkcYw3dEi_EqDN6mmDH7Hc/view"
     )
   }
   return (

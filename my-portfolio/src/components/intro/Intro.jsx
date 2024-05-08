@@ -17,12 +17,8 @@ const Intro = () => {
           </div>
           <div className="about__content">
             <p id="user-detail-intro">
-              A dedicated and skilled Full Stack Web Developer with a
-              specialization in React, Redux, MongoDB, Express.js & Node.js, 
-              committed to staying current with new technologies and industry
-              trends. Seeking a dynamic and challenging role in a product-driven
-              company that values creativity, collaboration, and professional
-              development.
+            A dedicated and skilled Full Stack Web Developer with specialization in MERN Stack, committed to staying current with new technologies & industry trends. Quick learning in adapting to Generative AI and new tech stacks, ensuring seamless integration of cutting-edge
+            innovations into projects. Seeking a dynamic and challenging role that values creativity, collaboration, and fosters a culture of continuous professional development.
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's Talk

@@ -70,7 +70,8 @@ const Footer = () => {
       </div>
       <div className="footer__copyright">
         <small>
-          &copy; Ritesh Kr. Shukla {getYear()}. All rights reserved.
+         <b>No &copy; copyright issues.</b><br></br>
+         <p>Feel free to copy. If you need any help, ping me !</p>
         </small>
       </div>
     </footer>
@@ -78,3 +79,8 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+// <small>
+// &copy; Ritesh Kr. Shukla {getYear()}. All rights reserved.
+// </small>
